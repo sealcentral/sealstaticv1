@@ -1,0 +1,2 @@
+# sealstatic
+sealcentral static edition
