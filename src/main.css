@@ -1,0 +1,25 @@
+.card {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.alert {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
