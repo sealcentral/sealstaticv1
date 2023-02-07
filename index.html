@@ -7,9 +7,11 @@
     <title>SealCentral</title>
     <link rel="stylesheet" href="./css/tailwind.css">
     <link rel="stylesheet" href="./src/main.css">
+    <script src="./src/script.js"></script>
 </head>
+
 <body class="bg-gray-800">
-    <nav class="flex items-center justify-between bg-gray-800 px-4 py-3 w-full h-16">
+    <nav class="fixed flex items-center justify-between bg-slate-900  px-4 py-3 w-full h-16 mt-8 shadow-lg">
         <div class="flex items-center">
           <img src="./img/sealc.png" alt="logo" class="h-12 w-12 rounded-full">
           <div class="ml-2 text-xl font-bold text-white hover:text-gray-300" href="#">SealCentral</div>
@@ -25,23 +27,15 @@
           </button>
         </div>
     </nav>
-    <div class="bg-green-100  text-green-700 p-2" role="alert">
-        <div class="float-left cursor-pointer">
-          <span class="text-sm font-bold transition-colors hover:text-white" onclick="this.parentElement.parentElement.classList.add('fade-out');"
-          >&times;</span>
-        </div>
-        <p class="text-center font-bold">Discord server</p>
-        <p class="text-center transition-shadow hover:shadow-lg">discord.gg/sealcentral</p>
-    </div>
-      
-    <div class="-mt-10 flex flex-col items-center justify-center h-screen">
+  
+    <div class="-mt-12 flex flex-col items-center justify-center h-screen">
         <div class="text-6xl font-bold text-white">SealCentral</div>
         <div class="text-2xl font-bold text-white">The best unblocked place for Entertainment</div>
         <button id="play" class="mt-4 bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 rounded-full">
           Play Now!
         </button>
     </div>
-    
+    <div class="-mt-8">
         <h1 class="p-4 text-4xl font-bold text-white text-left w-full">Games (Testing)</h1>
         <hr class="-mt-3 w-full">
         <div class="flex justify-center mt-5">
@@ -87,6 +81,7 @@
                 <div class="text-gray-500">Action | RPG</div>
             </div>
             </div>
+    </div>
 
      
 
